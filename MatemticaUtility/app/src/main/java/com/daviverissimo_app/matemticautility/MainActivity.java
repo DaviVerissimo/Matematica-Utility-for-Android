@@ -6,12 +6,14 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 
+import com.daviverissimo_app.matemticautility.view.ActivityCalcularPorcentagem;
 import com.daviverissimo_app.matemticautility.view.ActivityCalcularRaiz;
 import com.daviverissimo_app.matemticautility.view.ActivityCalculoPotencia;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnCalcPotencia;
     private Button btnCalcRaiz;
+    private Button btnCalcPorcentagem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnCalcPotencia = (Button) findViewById(R.id.btnCalcPotencia);
         btnCalcRaiz = (Button) findViewById(R.id.btnCalcRaiz);
+        btnCalcPorcentagem = (Button) findViewById(R.id.btnCalcPorcentagem);
 
         btnCalcPotencia.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +36,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ActivityCalcularRaiz.class);
+                startActivity(intent);
+            }
+        });
+
+        btnCalcPorcentagem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActivityCalcularPorcentagem.class);
                 startActivity(intent);
             }
         });

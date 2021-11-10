@@ -8,14 +8,41 @@
     tools:context=".view.ActivityCalcularPorcentagem">
 
     <EditText
-        android:id="@+id/edt"
+        android:id="@+id/edtNumero"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="%"
+        android:hint="Numero"
         android:inputType="number" />
 
     <Space
         android:layout_width="wrap_content"
         android:layout_height="10dp"/>
+
+    <EditText
+        android:id="@+id/edtPocentagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Porcentagem %"
+        android:inputType="number" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalcularPorcentagem"
+        android:text="Calcular Porcentagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/resultadoPorcentagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
 
 </LinearLayout>
