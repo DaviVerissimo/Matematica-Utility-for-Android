@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MatemáticaUtility">
         <activity
+            android:name=".view.ActivityEquivalenciaEmPorcentagem"
+            android:exported="false" />
+        <activity
             android:name=".view.ActivityCalcularPorcentagem"
             android:exported="false" />
         <activity
