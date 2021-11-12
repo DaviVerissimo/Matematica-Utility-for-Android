@@ -63,6 +63,16 @@ public class PotenciaTest {
 
     }
 
+    @Test
+    public void calcularPotenciaParametrosLong(){
+        Sistema sistema = new Sistema();
+        long base = 12;
+        long expoent = 10;
+        long resultado = sistema.calcularPotencia(expoent, base);
+        long esperado = 1000000000000l;
+        Assert.assertEquals(resultado, esperado);
+    }
+
     @After
     public void tearDown() throws Exception {
     }

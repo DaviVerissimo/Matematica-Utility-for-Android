@@ -7,10 +7,10 @@ public class Calculadora {
 		return raiz;
 	}
 
-	public long calcularRaiz(long numero, long baseRaiz) {
-		long raiz = (long) Math.pow(numero, 1 / baseRaiz);
-		return raiz;
-	}
+//	public long calcularRaiz(long numero, long baseRaiz) {
+//		long raiz = (long) Math.pow(numero, 1 / baseRaiz);
+//		return raiz;
+//	}
 	
 	public long calcularPotentia(double numero, double basePotencia) {
 		Double potenciacao = Math.pow(numero, basePotencia);

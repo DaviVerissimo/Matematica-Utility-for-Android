@@ -8,13 +8,23 @@ public class Sistema implements control.Facada {
 
 	@Override
 	public long calcularRaiz(float numero, float baseRaiz) {
-		
+
+		return new Calculadora().calcularRaiz(numero, baseRaiz);
+	}
+
+	public long calcularRaiz(long numero, long baseRaiz) {
+
 		return new Calculadora().calcularRaiz(numero, baseRaiz);
 	}
 
 	@Override
 	public long calcularPotencia(float numero, float basePotencia) {
-		
+
+		return new Calculadora().calcularPotentia(numero, basePotencia);
+	}
+
+	public long calcularPotencia(long numero, long basePotencia) {
+
 		return new Calculadora().calcularPotentia(numero, basePotencia);
 	}
 
@@ -29,7 +39,7 @@ public class Sistema implements control.Facada {
 				//Toast.makeText(mensage);
 			}
 		}
-		
+
 		return null;
 	}
 
