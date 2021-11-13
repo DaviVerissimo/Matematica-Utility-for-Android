@@ -25,7 +25,7 @@ public class ActivityCalculoPotencia extends AppCompatActivity {
         edtExpoentElevado = (EditText)findViewById(R.id.edtExpoentElevado);
         btnCalcularPotencia = (Button) findViewById(R.id.btnCalcularPotencia);
         resultadoPotencia = (TextView) findViewById(R.id.resultadoPotencia);
-
+        this.setTitle("Calculo de Potencia");
         btnCalcularPotencia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

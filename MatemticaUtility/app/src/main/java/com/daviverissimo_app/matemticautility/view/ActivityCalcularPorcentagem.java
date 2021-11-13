@@ -21,7 +21,7 @@ public class ActivityCalcularPorcentagem extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcular_porcentagem);
-
+        this.setTitle("Calculo de Porcentagem");
         edtNumero = (EditText) findViewById(R.id.edtNumero);
         edtPocentagem = (EditText) findViewById(R.id.edtPocentagem);
         btnCalcularPorcentagem = (Button) findViewById(R.id.btnCalcularPorcentagem);

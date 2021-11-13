@@ -21,7 +21,7 @@ public class ActivityEquivalenciaEmPorcentagem extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_equivalencia_em_porcentagem);
-
+        this.setTitle("Equivalencia em porcentagem");
         edtNumero2 = (EditText) findViewById(R.id.edtNumero2);
         edtPocentagemEquivale = (EditText) findViewById(R.id.edtPocentagemEquivale);
         btnCalcularPorcentagem = (Button) findViewById(R.id.btnCalcularPorcentagem);
