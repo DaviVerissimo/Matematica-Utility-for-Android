@@ -3,13 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".view.ActivityCalcularRaiz">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".view.ActivityCalcularRaiz">
 
     <EditText
         android:id="@+id/edtRaiz"
@@ -25,7 +24,7 @@
     <EditText
         android:id="@+id/edtExpoentRadiciado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="√ Expoent"
         android:inputType="number"/>
 
@@ -36,6 +35,8 @@
     <Button
         android:id="@+id/btnCalcularRaiz"
         android:text="Calcular Raiz"
+        android:background="@drawable/degrader_button"
+        android:textColor="#FBFBFB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

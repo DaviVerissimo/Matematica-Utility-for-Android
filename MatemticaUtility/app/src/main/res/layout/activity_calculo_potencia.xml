@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,7 +21,7 @@
     <EditText
         android:id="@+id/edtExpoentElevado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Expoent"
         android:inputType="number" />
 
@@ -33,6 +32,8 @@
     <Button
         android:id="@+id/btnCalcularPotencia"
         android:text="Calcular Potencia"
+        android:background="@drawable/degrader_button"
+        android:textColor="#FBFBFB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

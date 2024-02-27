@@ -1,15 +1,18 @@
 package com.daviverissimo_app.matemticautility;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.content.Intent;
 
 import com.daviverissimo_app.matemticautility.view.ActivityCalcularPorcentagem;
 import com.daviverissimo_app.matemticautility.view.ActivityCalcularRaiz;
 import com.daviverissimo_app.matemticautility.view.ActivityCalculoPotencia;
 import com.daviverissimo_app.matemticautility.view.ActivityEquivalenciaEmPorcentagem;
+import com.daviverissimo_app.matemticautility.view.BlankFragment;
 
 public class MainActivity extends AppCompatActivity {
     private Button btnCalcPotencia;
@@ -58,6 +61,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//
+//        BlankFragment meuFragmento = new BlankFragment();
+//        fragmentTransaction.add(R.id.fragment_container, meuFragmento);
+//        fragmentTransaction.commit();
+
     }
 
 

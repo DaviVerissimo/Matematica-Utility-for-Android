@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-
+    android:background="@drawable/degrader_button"
+    android:fillViewport="true"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnCalcPotencia"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculo de Potencia">
+        android:background="@drawable/degrader_button"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    </Button>
+        <Button
+            android:id="@+id/btnCalcPotencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/degrader_button"
+            android:text="Calculo de Potencia"
+            android:textColor="#FBFBFB">
 
-    <Button
-        android:id="@+id/btnCalcRaiz"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculo de Raiz">
+        </Button>
 
-    </Button>
+        <Button
+            android:id="@+id/btnCalcRaiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/degrader_button"
+            android:text="Calculo de Raiz"
+            android:textColor="#FFFFFF">
 
-    <Button
-        android:id="@+id/btnCalcPorcentagem"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculo de Porcentagem">
+        </Button>
 
-    </Button>
+        <Button
+            android:id="@+id/btnCalcPorcentagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/degrader_button"
+            android:text="Calculo de Porcentagem"
+            android:textColor="#FFFFFF">
 
-    <Button
-        android:id="@+id/btnCalcPorcentagemEquivalente"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Calculo Equivalencia da Porcentagem">
+        </Button>
 
-    </Button>
+        <Button
+            android:id="@+id/btnCalcPorcentagemEquivalente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/degrader_button"
+            android:text="Calculo Equivalencia da Porcentagem"
+            android:textColor="#FFFFFF">
 
+        </Button>
 
+        <ImageView
+            android:id="@+id/imagem_exemplo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/centro" />
 
-
-</LinearLayout>
+<!--        <FrameLayout-->
+<!--            android:id="@+id/fragment_container"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent" />-->
+    </LinearLayout>
+</ScrollView>
