@@ -1,7 +1,5 @@
 package com.daviverissimo_app.matemticautility.control;
 
-import static org.junit.Assert.*;
-
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
