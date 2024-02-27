@@ -1,7 +1,7 @@
 package com.daviverissimo_app.matemticautility.view;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,7 +21,7 @@ public class ActivityCalcularPorcentagem extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcular_porcentagem);
-
+        this.setTitle("Calculo de Porcentagem");
         edtNumero = (EditText) findViewById(R.id.edtNumero);
         edtPocentagem = (EditText) findViewById(R.id.edtPocentagem);
         btnCalcularPorcentagem = (Button) findViewById(R.id.btnCalcularPorcentagem);
