@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.daviverissimo_app.matemticautility"
         minSdk 16
-        targetSdk 31
-        versionCode 1
-        versionName "1.0"
+        targetSdk 33
+        versionCode 4
+        versionName "classic 3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
@@ -25,12 +25,14 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.daviverissimo_app.matemticautility'
 }
 
 dependencies {
 
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+//    implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+//    implementation 'com.android.support:recyclerview-v7:28.0.0'
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
