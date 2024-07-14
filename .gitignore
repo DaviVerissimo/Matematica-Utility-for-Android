@@ -21,3 +21,65 @@ MatemticaUtility/.idea/gradle.xml
 MatemticaUtility/.idea/migrations.xml
 MatemticaUtility/.idea/vcs.xml
 MatemticaUtility/app/release/app-release.aab
+MatemticaUtility/.idea/deploymentTargetDropDown.xml
+
+# Android Studio
+.idea/**
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/modules.xml
+/.idea/.name
+/.idea/caches
+/.idea/codeStyles
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/vcs.xml
+/.idea/inspectionProfiles
+/.idea/androidStudioFirstRun.xml
+/.idea/markdown-navigator.xml
+/.idea/misc.xml
+/.idea/modules.xml
+
+# User-specific configurations
+.DS_Store
+/.project
+/.classpath
+
+# Gradle
+/build/
+/*/build
+.gradle/
+/out/
+/intermediates/
+/libs/
+/tmp/
+
+# Keystore files
+*.jks
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# IntelliJ
+*.iml
+/modules.xml
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/libraries
+
+# Other
+/local.properties
+/.DS_Store
+/.gradle
+/captures
+MatemticaUtility/.idea/deploymentTargetDropDown.xml
+MatemticaUtility/.idea/deploymentTargetDropDown.xml
+MatemticaUtility/.idea/deploymentTargetDropDown.xml
+MatemticaUtility/.idea/.name
+MatemticaUtility/.idea/compiler.xml
+MatemticaUtility/.idea/misc.xml
