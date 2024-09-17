@@ -9,6 +9,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MatemáticaUtility">
         <activity
+            android:name=".view.ActivityNavegar"
+            android:exported="false"
+            android:label="@string/title_activity_navegar" />
+        <activity
+            android:name=".view.botaonavegarActivity"
+            android:exported="false"
+            android:label="@string/title_activity_botaonavegar" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main" />
+        <activity
             android:name=".view.ActivityEquivalenciaEmPorcentagem"
             android:exported="false" />
         <activity
