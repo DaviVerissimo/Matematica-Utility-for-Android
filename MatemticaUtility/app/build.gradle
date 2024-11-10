@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.daviverissimo_app.matemticautility"
         minSdk 16
-        targetSdk 33
-        versionCode 5
+        targetSdk 34
+        versionCode 8
         versionName "classic 3"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"

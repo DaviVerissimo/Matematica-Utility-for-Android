@@ -9,7 +9,7 @@ import android.widget.Button;
 import com.daviverissimo_app.matemticautility.view.ActivityCalcularPorcentagem;
 import com.daviverissimo_app.matemticautility.view.ActivityCalcularRaiz;
 import com.daviverissimo_app.matemticautility.view.ActivityCalculoPotencia;
-import com.daviverissimo_app.matemticautility.view.ActivityEquivalenciaEmPorcentagem;
+import com.daviverissimo_app.matemticautility.view.ActivityCalculoProporçãoPercentual;
 import com.daviverissimo_app.matemticautility.view.ActivityNavegar;
 
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         btnCalcPorcentagemEquivalente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ActivityEquivalenciaEmPorcentagem.class);
+                Intent intent = new Intent(MainActivity.this, ActivityCalculoProporçãoPercentual.class);
                 startActivity(intent);
             }
         });

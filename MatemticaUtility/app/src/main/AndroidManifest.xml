@@ -21,7 +21,7 @@
             android:exported="false"
             android:label="@string/title_activity_main" />
         <activity
-            android:name=".view.ActivityEquivalenciaEmPorcentagem"
+            android:name=".view.ActivityCalculoProporçãoPercentual"
             android:exported="false" />
         <activity
             android:name=".view.ActivityCalcularPorcentagem"

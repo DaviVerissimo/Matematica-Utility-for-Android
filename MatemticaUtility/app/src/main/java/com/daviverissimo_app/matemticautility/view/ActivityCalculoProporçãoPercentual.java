@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.daviverissimo_app.matemticautility.R;
 import com.daviverissimo_app.matemticautility.control.Sistema;
 
-public class ActivityEquivalenciaEmPorcentagem extends AppCompatActivity {
+public class ActivityCalculoProporçãoPercentual extends AppCompatActivity {
     private EditText edtNumero2;
     private EditText edtPocentagemEquivale;
     private Button btnCalcularPorcentagem;
@@ -20,8 +20,8 @@ public class ActivityEquivalenciaEmPorcentagem extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_equivalencia_em_porcentagem);
-        this.setTitle("Equivalencia em porcentagem");
+        setContentView(R.layout.activity_calculo_proporcao_percentual);
+        this.setTitle("Proporção percentual");
         edtNumero2 = (EditText) findViewById(R.id.edtNumero2);
         edtPocentagemEquivale = (EditText) findViewById(R.id.edtPocentagemEquivale);
         btnCalcularPorcentagem = (Button) findViewById(R.id.btnCalcularPorcentagem);
