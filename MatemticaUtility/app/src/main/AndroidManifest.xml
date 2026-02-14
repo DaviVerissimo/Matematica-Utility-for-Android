@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MatemáticaUtility">
         <activity
+            android:name=".view.GoldActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.ActivityNavegar"
             android:exported="false"
             android:label="@string/title_activity_navegar" />
